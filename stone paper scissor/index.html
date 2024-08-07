@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+
+
+#main{
+
+    display: flex;
+    justify-content: center;
+
+    gap:3rem;
+    text-align: center;
+}
+        
+
+.score-board{
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    gap: 3rem;
+    font-size: larger;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.choose:hover{
+
+    background-color: salmon;
+    border-radius: 50%;
+    border:2px solid;
+    padding: 5px;
+    text-align: center;
+   
+
+
+}
+
+.playgame{
+
+    display: flex;
+    justify-content: center;
+
+  
+    margin-top: 10px;
+
+    
+
+}
+
+.playgame button{
+
+    padding: 8px;
+    width: 200px;
+    font-size: 35px;
+    border-radius: 8px;
+    background-color: #DF2935;
+    cursor: pointer;
+}
+.winnerdeclare{
+
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+
+    transition: all 0.3 ease
+}
+
+.text:hover{
+
+    cursor:pointer;background-color: #DFA06E;
+
+}
+    </style>
+    <div id = "main">
+
+        <div id = >
+            <p>stone</p>
+            <img src = "stone.jpg" height = "100px" width="100px" class = "choose" id ="stone"/>
+        </div>
+        <div>
+            <p>paper</p>
+            <img src = "paper.png"  height = "100px" width="100px" class = "choose" id = "paper"/>
+        </div>
+        <div>
+            <p>scissor</p>
+            <img src = "scissor.png"   height = "100px" width="100px" class = "choose" id = "scissor"/>
+
+        </div>
+
+    </div>
+
+    <div class=" score-board">
+      <div class="score"> <h1 id = "user">0</h1>
+       <h1>player</h1></div>
+<div class = "score">
+
+    <h1 id = "comp">0</h1>
+    <h1>computer</h1>
+
+    </div>
+   
+    </div>
+    <div class = "playgame">
+        <button id = "text" onclick="playbutton()">PLAY GAME</button>
+    </div>
+    <div  class = "winnerdeclare">
+        <h1 id = ></h1>
+    </div>
+   
+
+    <script src = " index.js"></script>
+    
+</body>
+</html>
