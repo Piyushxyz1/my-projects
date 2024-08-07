@@ -1,0 +1,55 @@
+.cell-container{
+
+    display: grid;
+    grid-template-columns:repeat(3,auto) ;
+    width: 225px;
+    margin: auto;
+  
+   
+}
+
+
+.cell {
+    
+    border: 1px solid black;  
+  height:80px;
+  width: 80px;  
+  box-shadow: 0 0 2px 2px ;
+  font-size: 50PX;
+  line-height: 75PX;
+  }
+
+  h1{
+
+    text-align: center;
+  }
+
+
+
+  #reset{
+width: 100px;
+text-align: center;
+margin: auto;
+
+  }
+
+
+  .game-container{
+
+    text-align: center;
+  }
+
+
+
+  .game-container BUTTON{
+    padding:5px;
+    border-radius: 8px;
+
+  }
+
+  #new-btn{
+
+    padding: 7px;
+    margin:10px;
+    border-radius: 7px;
+  }
